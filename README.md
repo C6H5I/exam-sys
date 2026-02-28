@@ -83,7 +83,7 @@ sudo systemctl start mariadb
 
 ```bash
 # 导入数据库初始化脚本及示例数据(在exam_sys/sql/下)
-mysql -u root -p exam_db < <(cat build.sql data.sql)
+mysql -u root -p < <(cat build.sql data.sql)
 ```
 
 ### 4. 编译并运行程序
